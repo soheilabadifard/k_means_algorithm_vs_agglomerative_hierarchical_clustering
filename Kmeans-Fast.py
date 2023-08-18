@@ -1,4 +1,4 @@
-"""Code implementation by Soheil Abadifard - 22101026"""
+"""Code implementation by Soheil Abadifard"""
 
 import numpy as np
 import cv2
