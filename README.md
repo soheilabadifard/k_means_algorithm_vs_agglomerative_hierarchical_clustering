@@ -1,1 +1,3 @@
-# k_means_algorithm_vs_agglomerative_hierarchical_clustering
+# k-means algorithm vs agglomerative hierarchical clustering
+
+Clustering algorithms are implemented from scratch and tested on a toy data.
