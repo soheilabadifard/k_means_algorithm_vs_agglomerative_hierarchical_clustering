@@ -1,4 +1,4 @@
-"""Code implementation by Soheil Abadifard - 22101026"""
+""" Code implementation by Soheil Abadifard"""
 
 import time
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ class agglomerative(object):
         self.node_data = []
         self.error = 0
 
-    # calculating euclidean distance
+    # calculating the euclidean distance
     def euclidean_distance(self, mydata):
         eu_pow = 0
         eu_distance = 0
@@ -46,7 +46,7 @@ class agglomerative(object):
         eu_distance = np.sqrt(eu_sum)
         return eu_distance
 
-    # doing the hiearchial clustering
+    # doing the hierarchical clustering
     def cluster(self):
         counter = 0
         distance_matrix = [self.euclidean_distance(i) for i in self.data]
@@ -276,7 +276,7 @@ agglo_labels = agglo_labels.astype(int)
 pre_segmented = agglo_centers[agglo_labels]
 pre_segmented = np.squeeze(pre_segmented)
 # pre_segmented1 = pre_segmented.reshape(img.shape)
-# second phase - apply the new centers to original image
+# Second phase - apply the new centers to the original image
 
 segmented_image = pre_segmented[labels]
 segmented_image1 = segmented_image.reshape(img.shape)
